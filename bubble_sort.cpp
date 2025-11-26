@@ -17,7 +17,7 @@ void printArray(int arr[], int n){
 }
 int main(){
 
-    int arr[] = {64, 55, 23, 78, 12, 89};
+    int arr[] = {64, 55, 23,64, 78, 12,64, 89};
     int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr, n);
     cout<<"Sorted array: \n";
